@@ -19,9 +19,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${english.className}`}>
+      <body className={`${english.className} w-full`}>
         <Header />
-        {children}
+        <main className="w-full min-h-screen max-w-customMax mx-auto px-4">
+          {children}
+        </main>
       </body>
     </html>
   );

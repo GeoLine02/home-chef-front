@@ -13,6 +13,9 @@ const config: Config = {
         outlineColor: "#847469",
         customOrange: "#FF9939"
       },
+      maxWidth: {
+        customMax: "1552px"
+      }
     },
   },
   plugins: [],
