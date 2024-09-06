@@ -9,9 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "",
-        foreground: "",
+        mainColor: "#FFFFFF",
+        outlineColor: "#847469",
+        customOrange: "#FF9939"
       },
+      maxWidth: {
+        customMax: "1552px"
+      }
     },
   },
   plugins: [],
