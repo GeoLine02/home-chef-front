@@ -6,7 +6,7 @@ import User from "./User";
 
 export default function Header() {
   return (
-    <header className="w-full bg-mainColor flex justify-between items-center">
+    <header className="w-full bg-mainColor flex justify-between items-center py-3">
       <Logo />
       <RestaurantSearch />
       <LanguageSwitcher />
