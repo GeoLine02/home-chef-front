@@ -1,7 +1,6 @@
 // import AuthModal from "@/components/auth/AuthModal";
 // import CartList from "@/components/cart/CartList";
-
-import ProductDetailsModal from "@/components/product/ProductDetailsModal";
+// import ProductDetailsModal from "@/components/product/ProductDetailsModal";
 
 export default function Home() {
   return (
@@ -9,7 +8,7 @@ export default function Home() {
       <h1>HOME PAGE</h1>
       {/* <CartList isCartOpen={true} layout="side" /> */}
       {/* <AuthModal /> */}
-      <ProductDetailsModal />
+      {/* <ProductDetailsModal /> */}
     </div>
   );
 }
