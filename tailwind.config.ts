@@ -11,7 +11,8 @@ const config: Config = {
       colors: {
         mainColor: "#FFFFFF",
         outlineColor: "#847469",
-        customOrange: "#FF9939"
+        customOrange: "#FF9939",
+        customGray: "#3D3D3D"
       },
       maxWidth: {
         customMax: "1552px"
